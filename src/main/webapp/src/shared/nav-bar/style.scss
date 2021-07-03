@@ -1,0 +1,45 @@
+@import '../../index.scss';
+
+.header {
+    // position: fixed;
+    // top: 0;
+    // width: 100%;
+    color: $white-text-color !important;
+    background-color: $base-color;
+    padding: .5rem;
+
+    .navbar,
+    .nav-link {
+        color: $white-text-color !important;
+
+    }
+
+    .under-nav {
+        display: flex;
+        justify-content: space-around;
+
+        .logo {
+            img {
+                width: 64px;
+            }
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+
+            input {
+                border: 0;
+                width: 50rem;
+                outline: none;
+                padding: .5rem;
+                border-radius: .125rem;
+            }
+        }
+        .cart-icon {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+}

@@ -1,0 +1,61 @@
+@import '../../index.scss';
+
+.card {
+    position: relative;
+
+    .sale {
+        position: absolute;
+        background-color: $base-color;
+        top: 0;
+        right: 0;
+        padding: .25rem;
+        color: $white-text-color;
+        border-radius: 73% 27% 41% 59% / 35% 30% 70% 65%;
+    }
+
+    .title {
+        color: $black-text-color;
+        font-weight: 600;
+    }
+
+    .text {
+        color: $base-color;
+        .discount-price {
+            text-decoration: line-through;
+            color: $black-text-color;
+        }
+    }
+    .info {
+        display: flex;
+        justify-content: space-between;
+
+        .heart {
+            transition: color .75s;
+            display: flex;
+            align-items: center;
+        }
+
+        .heart:hover {
+            color: $base-color;
+        }
+
+        .star {
+            color: #ffce3d;
+        }
+
+        .add-to-cart {
+            font-size: .75rem;
+            border-radius: .25rem;
+            padding: 5px;
+            transition: background-color .75s;
+        }
+        .add-to-cart:hover {
+            background-color: $base-color;
+            color: $white-text-color;
+        }
+    }
+}
+.card:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,17 @@
+$black-text-color: #222831;
+$gray-text-color: #393E46;
+$base-color: #00ADB5;
+$white-text-color: #EEEEEE;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
